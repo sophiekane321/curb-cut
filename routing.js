@@ -373,13 +373,16 @@ function findRoute(graph, startKey, endKey, costOfEdge) {
 }
 
 // Count how many separate staircases a route uses (from the map or your walk-through)
+// Stairs pieces one right after another along the route are one set
+// (like a long row of stairs marked in a few spots)
 function countStairs(route) {
-  const stairs = new Set();
+  let sets = 0;
+  let onStairs = false;
   for (const edge of route.edges) {
-    if (edge.properties.highway === "steps") stairs.add("map " + edge.properties.osm_id);
-    if (edge.notes.barrier && edge.notes.barrier.type === "stairs") stairs.add(edge.notes.barrier.photo);
+    if (isStairs(edge) && !onStairs) sets++;
+    onStairs = isStairs(edge);
   }
-  return stairs.size;
+  return sets;
 }
 
 // Does the route go over any rough surface?
