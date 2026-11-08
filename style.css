@@ -129,13 +129,10 @@ button {
   font-size: 0.95rem;
 }
 
+/* Same colors as the lines on the map, with the same white outline
+   so the dark gray still shows up on the blue header */
 .route-line .swatch {
-  border-top-color: white;
-  outline: 1px solid white;
-}
-
-.route-line .swatch.curb-cut {
-  border-top-color: #00a19a;
+  outline: 2px solid white;
 }
 .swatch.rough    { border-top: 5px dashed #e08214; }
 .swatch.new-path { border-top: 5px dashed #1a9850; }
