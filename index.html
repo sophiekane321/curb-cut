@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curb Cut</title>
+  <!-- Leaflet: the free map library that draws OpenStreetMap tiles -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curb Cut</h1>
+    <div id="profiles" role="group" aria-label="Who is the route for?">
+      <button data-profile="wheelchair" aria-pressed="true">♿ Wheelchair</button>
+      <button data-profile="lowVision" aria-pressed="false">👁 Low vision</button>
+      <button data-profile="stamina" aria-pressed="false">🪑 Limited stamina</button>
+    </div>
+    <button id="report" aria-pressed="false">⚠️ Report a problem</button>
+    <button id="reset">Start over</button>
+    <p id="instructions">Click the map to choose your <strong>start</strong> point.</p>
+  </header>
+
+  <main id="map" aria-label="Map of Duke West Campus"></main>
+
+  <aside id="legend">
+    <label><input type="checkbox" id="show-paths" checked> Show paths</label>
+    <div><span class="swatch footway"></span> Sidewalks &amp; footpaths</div>
+    <div><span class="swatch steps"></span> Stairs</div>
+    <div><span class="swatch road"></span> Roads &amp; driveways</div>
+    <div><span class="swatch shortest"></span> Shortest route</div>
+    <div><span class="swatch curb-cut"></span> Curb Cut route (chosen profile)</div>
+    <label class="legend-heading"><input type="checkbox" id="show-walkthrough" checked> My walk-through</label>
+    <div>🪜 stairs · ♿ ramp · 🛗 elevator</div>
+    <div>✅ curb cut · 🚸 crossing · 🪑 rest</div>
+    <div><span class="swatch rough"></span> Rough surface</div>
+    <div><span class="swatch new-path"></span> Path I added</div>
+    <div class="legend-heading">⚠️ Reported problem (routes avoid it)</div>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="routing.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

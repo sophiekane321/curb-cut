@@ -1,0 +1,178 @@
+/* Make the page fill the whole browser window */
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  background: #012169; /* Duke blue */
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+/* The instructions and route summaries get their own row under the buttons */
+header p {
+  margin: 0;
+  flex: 1 1 100%;
+}
+
+button {
+  font-size: 1rem;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#report {
+  margin-left: auto; /* pushes this and Start over to the right edge */
+}
+
+/* While choosing where a problem is, the Report button turns orange */
+#report[aria-pressed="true"] {
+  background: #e08214;
+  color: white;
+  font-weight: bold;
+}
+
+/* The little form for a new report, and the button that clears one */
+.report-form label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.report-form select,
+.report-form input {
+  width: 100%;
+  font-size: 0.95rem;
+  margin-top: 2px;
+}
+
+.report-form button,
+.clear-report {
+  margin-top: 4px;
+}
+
+.report-time {
+  font-size: 0.8rem;
+  color: #777777;
+}
+
+/* The three profile buttons; the chosen one is white */
+#profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+#profiles button {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 18px;
+}
+
+#profiles button[aria-pressed="true"] {
+  background: white;
+  color: #012169;
+  font-weight: bold;
+}
+
+/* The map takes up all the space under the header */
+#map {
+  flex: 1;
+}
+
+/* The legend box in the bottom-left corner of the map */
+#legend {
+  position: absolute;
+  bottom: 24px;
+  left: 12px;
+  z-index: 1000; /* keeps it above the map */
+  background: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.swatch {
+  display: inline-block;
+  width: 24px;
+  vertical-align: middle;
+  border-top-style: solid;
+}
+
+.swatch.footway { border-top: 3px solid #1f6fd1; }
+.swatch.steps   { border-top: 5px dashed #d7263d; }
+.swatch.road    { border-top: 2px solid #777777; }
+.swatch.shortest { border-top: 6px solid #333333; }
+.swatch.curb-cut { border-top: 6px solid #00a19a; }
+
+/* The two route summaries in the header, one per line */
+.route-line {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.route-line .swatch {
+  border-top-color: white;
+  outline: 1px solid white;
+}
+
+.route-line .swatch.curb-cut {
+  border-top-color: #00a19a;
+}
+.swatch.rough    { border-top: 5px dashed #e08214; }
+.swatch.new-path { border-top: 5px dashed #1a9850; }
+
+.legend-heading {
+  display: block;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #dddddd;
+}
+
+/* Walk-through features: a white circle with a colored border and a symbol */
+.feature-icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background: white;
+  border: 3px solid;
+  border-radius: 50%;
+  font-size: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Photos inside the popups */
+.feature-photo {
+  display: block;
+  width: 240px;
+  height: 200px; /* fixed size so the map can make room before the photo loads */
+  object-fit: cover;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.photo-name {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #777777;
+}

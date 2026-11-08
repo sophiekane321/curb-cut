@@ -1,0 +1,1157 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "rough",
+    "notes": "Mulch, stairs, and uphill path to the Chapel / Ending of path in IMG_3892",
+    "photos": [
+     "IMG_3892",
+     "IMG_3893"
+    ],
+    "images": [
+     "data/photos/IMG_3892.jpg",
+     "data/photos/IMG_3893.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.94142833333333,
+      36.00340278333334
+     ],
+     [
+      -78.94055833333333,
+      36.00229721666667
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "missing_path",
+    "notes": "Wraps around the French Sciences stairs / Ending of the wrap around path",
+    "photos": [
+     "IMG_3902",
+     "IMG_3903"
+    ],
+    "images": [
+     "data/photos/IMG_3902.jpg",
+     "data/photos/IMG_3903.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.94221333333333,
+      36.00275555
+     ],
+     [
+      -78.94287166666666,
+      36.00301111666667
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "missing_path",
+    "notes": "Path start around Craven and Crowell stairs / Path entrance by Main Quad",
+    "photos": [
+     "IMG_4072",
+     "IMG_4074"
+    ],
+    "images": [
+     "data/photos/IMG_4072.jpg",
+     "data/photos/IMG_4074.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.94062,
+      35.99895833333333
+     ],
+     [
+      -78.939645,
+      35.99973666666666
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "missing_path",
+    "notes": "Ramp next to the Cameron stairs, across the platform (from my map drawing) / Platform path reaches the walkway to Cameron",
+    "photos": [
+     "(no photo)",
+     "(no photo)"
+    ],
+    "images": [
+     null,
+     null
+    ]
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.94095,
+      35.99762
+     ],
+     [
+      -78.9419577,
+      35.9972586
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Next to Perkins stairs",
+    "photos": [
+     "IMG_3882"
+    ],
+    "images": [
+     "data/photos/IMG_3882.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.938095,
+     36.00175833333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Between Perkins and Bostock",
+    "photos": [
+     "IMG_3888"
+    ],
+    "images": [
+     "data/photos/IMG_3888.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93883666666666,
+     36.00290278333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Wraps around Perkins/Bostock stairs)",
+    "photos": [
+     "IMG_3889"
+    ],
+    "images": [
+     "data/photos/IMG_3889.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93883666666666,
+     36.00296111666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Between Perkins and E Quad",
+    "photos": [
+     "IMG_3890"
+    ],
+    "images": [
+     "data/photos/IMG_3890.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93921666666667,
+     36.00305555
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Wraps around E Quad stairs; handle bars only on top half",
+    "photos": [
+     "IMG_3891"
+    ],
+    "images": [
+     "data/photos/IMG_3891.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93951333333334,
+     36.003025
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Handles the entire way",
+    "photos": [
+     "IMG_3894"
+    ],
+    "images": [
+     "data/photos/IMG_3894.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93920833333334,
+     36.00166388833333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "curb_cut",
+    "notes": "In front of Chapel",
+    "photos": [
+     "IMG_3895"
+    ],
+    "images": [
+     "data/photos/IMG_3895.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.939255,
+     36.00163611166667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "In front of Chapel",
+    "photos": [
+     "IMG_3896"
+    ],
+    "images": [
+     "data/photos/IMG_3896.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93928666666666,
+     36.001625
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Half way between Chapel and the woods",
+    "photos": [
+     "IMG_3897"
+    ],
+    "images": [
+     "data/photos/IMG_3897.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93994166666667,
+     36.00204721666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Cuts across the back side of the chapel",
+    "photos": [
+     "IMG_3898"
+    ],
+    "images": [
+     "data/photos/IMG_3898.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94073666666667,
+     36.00213888333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Entire side along Bryan Center Loop",
+    "photos": [
+     "IMG_3899"
+    ],
+    "images": [
+     "data/photos/IMG_3899.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.941375,
+     36.00200278333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Leading to the short cut through the woods",
+    "photos": [
+     "IMG_3900"
+    ],
+    "images": [
+     "data/photos/IMG_3900.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94181166666667,
+     36.00304166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "25 steps leading down to French Sciences building",
+    "photos": [
+     "IMG_3901"
+    ],
+    "images": [
+     "data/photos/IMG_3901.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94219166666667,
+     36.00269445
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "elevator",
+    "notes": "Takes you from French Sciences wrap around to the main entrance",
+    "photos": [
+     "IMG_3905"
+    ],
+    "images": [
+     "data/photos/IMG_3905.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.942925,
+     36.00293333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Under Wu arches",
+    "photos": [
+     "IMG_3906"
+    ],
+    "images": [
+     "data/photos/IMG_3906.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93929166666666,
+     36.00036666666666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "curb_cut",
+    "notes": "Wu side walk to street",
+    "photos": [
+     "IMG_3907"
+    ],
+    "images": [
+     "data/photos/IMG_3907.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93878833333333,
+     36.00094166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "curb_cut",
+    "notes": "Street to middle of chapel pass",
+    "photos": [
+     "IMG_3908"
+    ],
+    "images": [
+     "data/photos/IMG_3908.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93873666666667,
+     36.001
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "curb_cut",
+    "notes": "Chapel pass to street",
+    "photos": [
+     "IMG_3909"
+    ],
+    "images": [
+     "data/photos/IMG_3909.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93853833333333,
+     36.00127777833333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "curb_cut",
+    "notes": "Street to Perkins sidewalk",
+    "photos": [
+     "IMG_3910"
+    ],
+    "images": [
+     "data/photos/IMG_3910.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93851333333333,
+     36.00136111166667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Class of 1948 bench",
+    "photos": [
+     "IMG_4063"
+    ],
+    "images": [
+     "data/photos/IMG_4063.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93856166666667,
+     36.00097222166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Next to WU",
+    "photos": [
+     "IMG_4064"
+    ],
+    "images": [
+     "data/photos/IMG_4064.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93888,
+     36.00078611166666
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "In front of Kilgo",
+    "photos": [
+     "IMG_4065"
+    ],
+    "images": [
+     "data/photos/IMG_4065.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9394,
+     36.00039166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Next to the Craven stairs",
+    "photos": [
+     "IMG_4066"
+    ],
+    "images": [
+     "data/photos/IMG_4066.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93966666666667,
+     35.99971333333333
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs up to Craven Quad",
+    "photos": [
+     "IMG_4067"
+    ],
+    "images": [
+     "data/photos/IMG_4067.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9397188,
+     35.9997246
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs up to Crowell Quad",
+    "photos": [
+     "IMG_4068"
+    ],
+    "images": [
+     "data/photos/IMG_4068.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93981166666667,
+     35.999225
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs up to Cameron platform",
+    "photos": [
+     "IMG_4069"
+    ],
+    "images": [
+     "data/photos/IMG_4069.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94088666666667,
+     35.99764666666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Ramp next to the Cameron stairs",
+    "photos": [
+     "IMG_4070"
+    ],
+    "images": [
+     "data/photos/IMG_4070.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94094666666666,
+     35.99762166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "20 stairs down to Wallace Wade Football Stadium",
+    "photos": [
+     "IMG_4071"
+    ],
+    "images": [
+     "data/photos/IMG_4071.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94216166666666,
+     35.99681166666667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "BC Plaza seating",
+    "photos": [
+     "IMG_4076"
+    ],
+    "images": [
+     "data/photos/IMG_4076.jpg"
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.94011666666667,
+     36.000775
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs on the path from Craven down to Towerview Rd, the fast way (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9398074,
+     35.999127
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Towerview Rd crossing by the parking garage, east side (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.940235,
+     35.998515
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Towerview Rd crossing by the parking garage, west side (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9408385,
+     35.9988175
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs west of the Bryan Center parking garage, by Science Dr (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9425012,
+     36.0019001
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs east of Bostock Library, toward Rueben-Cooke (west set) (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9377223,
+     36.0023833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs east of Bostock Library, toward Rueben-Cooke (east set) (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9373828,
+     36.0022798
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs by Wannamaker 4, west (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9392926,
+     35.9989796
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs by Wannamaker 4, east (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9388351,
+     35.9990132
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Stairs by Wannamaker Dr and Keohane 4A (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9381151,
+     35.9988078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating between the stairs east of Bostock (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.937483,
+     36.0023
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by Davidson Quad, next to the 419 building (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.937686,
+     36.001776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by House FF (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.938703,
+     36.00033
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by Craven House C (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.939026,
+     35.999882
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by Craven House D (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.939365,
+     35.999545
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by Clocktower Quad, toward Wannamaker (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.939568,
+     35.999111
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "bench",
+    "notes": "Seating by Keohane 4E (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9375,
+     35.998787
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Science Dr crossing by the French Science roundabout (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9420377,
+     36.0028298
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Science Dr crossing by the French Science roundabout (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9420981,
+     36.0027036
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Science Dr crossing by the French Science roundabout (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.942036,
+     36.0026898
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Science Dr crossing below the French Science stairs (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9423393,
+     36.0023575
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Telecom Dr crossing by Bostock Library (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9389728,
+     36.0029681
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "crossing",
+    "notes": "Telecom Dr crossing by Bostock Library (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9389283,
+     36.0029483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Second set of stairs mirroring the 25 steps to French Sciences (location from the map, no photo)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9424603,
+     36.0024221
+    ]
+   }
+  }
+ ]
+}
