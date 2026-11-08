@@ -191,11 +191,15 @@ function applyWalkthrough(graph, walkthrough) {
 
   // 2. Paths missing from the map: add them, and join each end to the nearest path
   for (const feature of byType("missing_path")) {
-    const [start, end] = feature.geometry.coordinates;
+    const points = feature.geometry.coordinates; // start, any bends, end
+    const start = points[0];
+    const end = points[points.length - 1];
     const properties = { highway: "footway", name: "Path from walk-through" };
     const startNeighbor = graph.get(nearestNode(graph, latlng(start), original)).coord;
     const endNeighbor = graph.get(nearestNode(graph, latlng(end), original)).coord;
-    addEdge(graph, start, end, properties);
+    for (let i = 0; i < points.length - 1; i++) {
+      addEdge(graph, points[i], points[i + 1], properties);
+    }
     addEdge(graph, start, startNeighbor, properties);
     addEdge(graph, end, endNeighbor, properties);
     addedEnds.push(addNode(graph, start), addNode(graph, end));
@@ -214,7 +218,9 @@ function applyWalkthrough(graph, walkthrough) {
 
   // 4. Rough and steep stretches: mark every piece of path between the two photos
   for (const feature of [...byType("rough"), ...byType("steep")]) {
-    const [start, end] = feature.geometry.coordinates;
+    const points = feature.geometry.coordinates;
+    const start = points[0];
+    const end = points[points.length - 1];
     const stretch = findRoute(
       graph,
       nearestNode(graph, latlng(start), original),
