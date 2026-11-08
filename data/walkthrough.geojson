@@ -168,6 +168,58 @@
   {
    "type": "Feature",
    "properties": {
+    "type": "missing_path",
+    "notes": "Accessible way to the Chapel ramp: starts on the walkway by the west Wu ramp (from my map drawing) / Top of the Chapel ramp, in front of the Chapel (from my map drawing)",
+    "photos": [
+     "(no photo)",
+     "(no photo)"
+    ],
+    "images": [
+     null,
+     null
+    ]
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.9392629,
+      36.0011853
+     ],
+     [
+      -78.939399,
+      36.0012594
+     ],
+     [
+      -78.9393254,
+      36.0013482
+     ],
+     [
+      -78.9392702,
+      36.001437
+     ],
+     [
+      -78.9391966,
+      36.0015109
+     ],
+     [
+      -78.9391231,
+      36.0016175
+     ],
+     [
+      -78.9391782,
+      36.0016293
+     ],
+     [
+      -78.9392962,
+      36.0016985
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
     "type": "ramp",
     "notes": "Next to Perkins stairs",
     "photos": [
@@ -1182,6 +1234,106 @@
     "coordinates": [
      -78.9389283,
      36.0029483
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Row of stairs in front of the Chapel, south end (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93950825,
+     36.00140165
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Ramp down to the west Wu entrance (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9393273,
+     36.0011078
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "ramp",
+    "notes": "Ramp down to the east Wu entrance (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.9390725,
+     36.0009946
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Row of stairs in front of the Chapel, middle (from my map drawing)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93942785,
+     36.00152035
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "type": "stairs",
+    "notes": "Row of stairs in front of the Chapel, west corner (stairs cover the whole front except the ramp)",
+    "photos": [
+     "(no photo)"
+    ],
+    "images": [
+     null
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.93967515,
+     36.00138015
     ]
    }
   },
